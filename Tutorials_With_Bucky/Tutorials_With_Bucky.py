@@ -1,11 +1,7 @@
-foods = ['bacon', 'tuna', 'ham', 'snausages', 'beef']
+for x in range(10, 40, 5):
+    print(x)
 
-for f in foods:
-    print(f)
-    print(len(f))
-
-name = ['martin', 'helen', 'jack', 'ruth', 'peter', 'sam']
-
-for n in name:
-    print(n)
-    print(len(n))
+butter = 5
+while butter < 10:
+    print(butter)
+    butter += 1
